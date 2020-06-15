@@ -1,5 +1,16 @@
-.about {
-    background-color: #f7f7f7;
-    padding: 25rem 0;
-    margin-top: -20vh;
+.intro {
+    display: flex;
+    flex: 0 0 20%;
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8rem;
 }

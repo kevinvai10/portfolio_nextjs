@@ -1,0 +1,41 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20vh;
+    padding: 25rem;
+
+    background-color: whitesmoke;
+}
+
+.projects {
+    height: 50vh;
+}
+
+.contact {
+
+}
+
+.footer {
+    height: 50vh;
+    background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
+}

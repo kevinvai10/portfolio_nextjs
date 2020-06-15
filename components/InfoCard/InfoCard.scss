@@ -1,0 +1,36 @@
+.infocard {
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 7px 1rem grey;
+    margin: .4rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__description {
+        margin-bottom: 2.75rem;
+
+        > h4 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        > p {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__skills {
+        > strong {
+            font-size: 1.75rem;
+            font-weight: lighter;
+        }
+
+        > p {
+            font-size: 1.5rem;
+        }
+    }
+}

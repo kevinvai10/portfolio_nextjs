@@ -1,5 +1,5 @@
 const Footer = () => (
-    <footer>
+    <footer className="footer">
         some links and more
     </footer>
 );

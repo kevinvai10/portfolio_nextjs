@@ -1,45 +1,34 @@
-.header {
-    height: 95vh;
-    background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+
+.navbar {
+    flex: 0 0 45%;
 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    &__navbar {
-        flex: 0 0 45%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        &__element {
-            margin-left: 2rem;
-            text-transform: capitalize;
-            color: white;
-        }
-    }
-
-    &__content {
-        flex: 0 0 79%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+    &__element {
+        margin-left: 2rem;
+        text-transform: capitalize;
         color: white;
-        font-size: 3rem;
     }
+}
 
-    &__particles {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-    }
+.content {
+    flex: 0 0 79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+.particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
