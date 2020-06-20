@@ -15,13 +15,31 @@
 
 .content {
     flex: 0 0 79%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+    margin-top: auto;
     color: white;
     font-size: 3.75rem;
     text-align: center;
+
+    > hr {
+        margin-left: auto;
+        border: solid #E3E3E3;
+        border-width: 1px 0 0;
+        clear: both;
+        margin: 11px auto 30px;
+        height: 0;
+        width: 50%;
+    }
+
+    &__icons {
+        width: 20%;
+        margin: auto;
+
+        svg {
+            font-size: 5rem;
+        }
+
+    }
 }
 
 .particles {
