@@ -1,5 +1,6 @@
 // import App from 'next/app'
 import Head from 'next/head';
+import CssBaseline from "@material-ui/core/CssBaseline";
 import '../components/Header/Header.scss';
 import '../components/About/About.scss';
 import '../components/InfoCard/InfoCard.scss';
@@ -10,8 +11,9 @@ function MyApp({ Component, pageProps }) {
       <>
         <Head>
           <title>Kevin's portfolio</title>
-          <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />       
         </Head>
+        <CssBaseline />
         <Component {...pageProps} />
       </>
     )
