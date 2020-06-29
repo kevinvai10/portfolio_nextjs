@@ -14,16 +14,19 @@ export const skillsValues = [
 
 export const skills = [
     {
+        id: '1',
         title: 'Front End',
-        description: 'I really like this thing',
+        description: `Front-end is my main area of expertise and the one i enjoy the most!`,
         skills: 'Javascript, React JS, Redux, Css/Sass, Material UI, HTML5'
     },
     {
+        id: '2',
         title: 'Back End',
         description: 'I really like this thing',
         skills: 'Node JS, GraphQL, PostgreSQL, MySQL, AWS'
     },
     {
+        id: '3',
         title: 'Other Skills',
         description: 'I really like this thing'
     },

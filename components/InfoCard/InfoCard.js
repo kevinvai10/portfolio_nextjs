@@ -1,9 +1,9 @@
-const InfoCard = ({ title, description, skills }) => (
+const InfoCard = ({ title, skills, Icon }) => (
     <div className="infocard">
         <div className="infocard__description">
-            <svg></svg>
+            <Icon width="100px" height="100px"/>
             <h4>{title}</h4>
-            <p>{description}</p>
+            {/*<p>{description}</p>*/}
         </div>
         <div className="infocard__skills">
             <strong>Languages and technologies</strong>

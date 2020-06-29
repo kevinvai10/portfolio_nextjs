@@ -1,16 +1,27 @@
 .intro {
     display: flex;
+    flex-direction: column;
     flex: 0 0 20%;
 
     font-size: 2rem;
     text-align: center;
+
+    > h1 {
+        font-size: 4rem;
+    }
+
+    &__title {
+        animation: moveInLeft 1s ease-in;
+    }
+    &__paragraph {
+        animation: moveInRight 1s ease-in;
+    }
 }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
 
     margin-top: 8rem;
 }

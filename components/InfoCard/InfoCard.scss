@@ -10,6 +10,8 @@
     justify-content: center;
     align-items: center;
 
+    animation: moveUp 1s ease-out;
+
     &__description {
         margin-bottom: 2.75rem;
 
@@ -34,3 +36,19 @@
         }
     }
 }
+
+@keyframes moveUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    60% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+} 
