@@ -17,4 +17,4 @@ const BackendIcon = ({ height = 'auto', width = 'auto' }) => (
     </svg>
 );
 
-export default BackendIcon
+export default BackendIcon;
