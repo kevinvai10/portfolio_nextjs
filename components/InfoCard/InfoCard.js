@@ -1,4 +1,4 @@
-const InfoCard = ({ title, skills, Icon }) => (
+const InfoCard = ({ title, description, skills, Icon }) => (
     <div className="infocard">
         <div className="infocard__description">
             <Icon width="100px" height="100px"/>
@@ -6,7 +6,7 @@ const InfoCard = ({ title, skills, Icon }) => (
             {/*<p>{description}</p>*/}
         </div>
         <div className="infocard__skills">
-            <strong>Languages and technologies</strong>
+            <strong>{description}</strong>
             <p>{skills}</p>
         </div>
     </div>
