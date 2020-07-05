@@ -1,0 +1,21 @@
+.projects {
+    background-color: whitesmoke;
+    -webkit-clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
+    padding: 25rem 10rem;
+
+    &__title {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+
+        place-items: center;
+    }
+
+}
+
