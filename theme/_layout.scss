@@ -11,27 +11,12 @@
     flex-direction: column;
 }
 
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: -20vh;
-    padding: 25rem;
-
-}
-
-.projects {
-    height: 50vh;
-    background-color: whitesmoke;
-    margin-bottom: -20vh;
-}
-
 .contact {
 
 }
 
 .footer {
+    /*
     height: 50vh;
     background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
     background-size: cover;
@@ -39,4 +24,43 @@
     position: relative;
     -webkit-clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
+    */
+    height: 10vh;
+    background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
+    background-size: cover;
+    background-position: top;
+}
+
+// Animations
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    } 
+
+    70% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    } 
+
+    70% {
+        transform: translateX(-15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }

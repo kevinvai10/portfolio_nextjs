@@ -4,6 +4,8 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import '../components/Header/Header.scss';
 import '../components/About/About.scss';
 import '../components/InfoCard/InfoCard.scss';
+import '../components/Projects/Projects.scss';
+import '../components/ProjectCard/ProjectCard.scss';
 import '../theme/main.scss';
 
 function MyApp({ Component, pageProps }) {
